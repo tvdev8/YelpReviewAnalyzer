@@ -2,13 +2,6 @@ package com.yelp.review.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-@Setter
-@Getter
-@NoArgsConstructor
 public class Reviews {
 	
 	@JsonProperty(value="id")
