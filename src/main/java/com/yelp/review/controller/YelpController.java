@@ -27,7 +27,7 @@ public class YelpController {
 
 	@ResponseBody
 	@GetMapping("/reviews")
-	public List<Reviews> test(@RequestParam("bussId") String bussId) {
+	public List<Reviews> getReviewList(@RequestParam("bussId") String bussId) {
 
 		HttpHeaders headers = new HttpHeaders();
 		headers.setBearerAuth(ParamProperties.API_KEY);
